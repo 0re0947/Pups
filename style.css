@@ -1975,28 +1975,83 @@ footer hr {
 
 
 .sec11 h1 {
-  
+
      font-weight: 600;
      font-style: SemiBold;
      font-size: 32px;
-    
+
 }
 
 
 .sec11 p {
-   
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
+
+     font-weight: 400;
+     font-style: Regular;
+     font-size: 16px;
+
+     width: 430px;
+     line-height: 25px;
 
 }
 
 
 .sec11 h4 {
-  width: 114px;   
+     width: 414px;
 
-font-weight: 600;
-font-style: SemiBold;
-font-size: 18px;
+     font-weight: 600;
+     font-style: SemiBold;
+     font-size: 18px;
 
+     margin-bottom: 20px;
+}
+
+
+.tatodivA {
+     width: 1150px;
+     height: 332px;
+
+     background-color: var(--orange);
+
+     border-radius: 15px;
+
+     color: var(--white);
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+}
+
+
+.sec11 .flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+}
+
+.sec11 .flex2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+}
+
+.sec11 span {
+
+     font-weight: 600;
+     font-style: SemiBold;
+     font-size: 20px;
+
+
+}
+
+.sec11 hr {
+     width: 0px;
+     height: 235px;
+     border-width: 2px;
+     border-style: dashed;
+     dashes: 9, 9;
+
+     border-color: white;
 }
