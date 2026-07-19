@@ -2055,3 +2055,128 @@ footer hr {
 
      border-color: white;
 }
+
+
+.sec7 h2 {
+
+     font-weight: 600;
+     font-style: SemiBold;
+     font-size: 15px;
+
+}
+
+.sec7 h1 {
+
+     width: 630px;
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 40px;
+     text-transform: uppercase;
+
+}
+
+
+.sec7 p {
+
+     width: 516px;
+     font-weight: 600;
+     font-style: SemiBold;
+     font-size: 14px;
+     color: #290E46;
+
+}
+
+.sec7 h3 {
+
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 24px;
+     text-transform: uppercase;
+
+     color: #290E46;
+
+}
+
+
+.sec7 hr {
+     width: 513px;
+     height: 0px;
+     border-width: 1px;
+
+     color: var(--white);
+
+}
+
+.sec7 .tatodiv11 .treats {
+     width: 111px;
+     height: 23px;
+
+     background-color: #FFFFFF4D;
+     border-radius: 9px;
+     border: none;
+
+
+     font-weight: 400;
+     font-style: Regular;
+     font-size: 16px;
+
+
+}
+
+
+.g100 {
+     width: 143px;
+     height: 40px;
+     background: none;
+     border-radius: 10px;
+     border: 1px solid #F27329;
+
+
+     font-weight: 500;
+     font-style: Medium;
+     font-size: 16px;
+     color: var(--white);
+
+}
+
+
+.d7 {
+     width: 133px;
+     height: 60px;
+     background: none;
+     border-radius: 9px;
+     border: 1px solid white;
+
+     font-weight: 600;
+     font-style: SemiBold;
+     font-size: 40px;
+     color: var(--white);
+}
+
+.buy {
+     width: 192px;
+     height: 60px;
+
+     background-color: var(--orange);
+     border: none;
+     border-radius: 9px;
+
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+
+     font-weight: 800;
+     font-style: ExtraBold;
+     font-size: 24px;
+     color: var(--white);
+    
+}
+
+
+.product {
+width: 632px;
+height: 284px;
+
+background-color: #F2E0D04D;
+border-radius: 9px;
+}
