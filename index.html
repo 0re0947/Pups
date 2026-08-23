@@ -10,7 +10,7 @@
 
 <body>
     <header id="top">
-        <a href="#top2"> <img src="images/Logo (2).png" alt="Logo"></a>
+        <a href="#top2"> <img class="logohe" src="images/Logo (2).png" alt="Logo"></a>
 
         <nav>
             <a href="catalog.html">Catalog</a>
@@ -19,11 +19,10 @@
         </nav>
 
         <div>
-            <button><img src="images/cuida_search-outline.png" alt="search"></button>
-            <button><img src="images/mdi_user.png" alt="prof"></button>
-            <button><img src="images/lets-icons_bag-fill.png" alt="shop"></button>
+            <button class="search"><img src="images/cuida_search-outline.png" alt="search"></button>
+            <a href="account.html"><button><img src="images/mdi_user.png" alt="prof"></button></a>
+            <button id="btnModal"><img src="images/lets-icons_bag-fill.png" alt="shop"></button>
         </div>
-
     </header>
 
     <main>
@@ -38,8 +37,8 @@
                 </div>
                 <div>
                     <h2>-50%</h2>
-                    <img class="serd" src="images/серце.png" alt="серце">
-                    <img class="kot" src="images/котя.png" alt="котя">
+                    <img class="serd" src="images/heart.png" alt="серце">
+                    <img class="kot" src="images/catik.png" alt="котя">
                 </div>
             </div>
             <button class="lapa2"></button>
@@ -111,7 +110,7 @@
 
                 <h1>RECCOMENDED</h1>
 
-                <div>
+                <div class="btnl">
                     <button><img style="opacity: 0.5;" src="images/Frame 16.png" alt="лапа1"></button>
                     <button class="lapa3"></button>
                 </div>
@@ -131,6 +130,8 @@
                         <button>#Food</button>
 
                         <p>13$</p>
+
+                        <button id="buynow" class="buynow">block now</button>
                     </div>
 
                 </div>
@@ -147,6 +148,8 @@
                         <button>#Treats</button>
 
                         <p>4$</p>
+
+                        <button class="buynow">buy now</button>
                     </div>
 
                 </div>
@@ -163,6 +166,8 @@
                         <button>#Vitamins</button>
 
                         <p>7$</p>
+
+                        <button class="buynow">buy now</button>
                     </div>
 
                 </div>
@@ -179,6 +184,8 @@
                         <button>#Beds</button>
 
                         <p>40$</p>
+
+                        <button class="buynow">buy now</button>
                     </div>
 
                 </div>
@@ -192,28 +199,28 @@
 
             <div style="gap: 515px;">
                 <p>Can you help me create a personalized care plan for my pet?</p>
-                <button><img src="images/Frame 18.png" alt=""></button>
+                <button><img src="images/Frame 18.png" alt="lapki"></button>
             </div>
 
             <hr>
 
             <div>
                 <p>Do you provide advice for pets with allergies or sensitive digestion?</p>
-                <button><img src="images/Frame 18.png" alt=""></button>
+                <button><img src="images/Frame 18.png" alt="lapki"></button>
             </div>
 
             <hr>
 
             <div style="gap: 525px;">
                 <p>Can I get an online consultation before making a purchase?</p>
-                <button><img src="images/Frame 18.png" alt=""></button>
+                <button><img src="images/Frame 18.png" alt="lapki"></button>
             </div>
 
             <hr>
 
             <div style="gap: 610px;">
                 <p>Do you support animal shelters or charity initiatives?</p>
-                <button><img src="images/Frame 18.png" alt=""></button>
+                <button><img src="images/Frame 18.png" alt="lapki"></button>
             </div>
 
             <hr>
@@ -231,7 +238,7 @@
 
                     <div class="input2">
                         <input type="email" placeholder="your email address">
-                        <button>SEND</button>
+                        <button id="send">SEND</button>
                     </div>
                 </div>
             </div>
@@ -244,7 +251,7 @@
 
         <div class="tatodiv6">
 
-           <a href="#top"> <img class="logo" src="images/Logo (2).png" alt="Logo"></a>
+            <a href="#top"> <img class="logo" src="images/Logo (2).png" alt="Logo"></a>
 
             <nav>
                 <a href="#">HOME</a>
@@ -259,7 +266,7 @@
                 <p>puppszoo@gmail.com</p>
             </div>
 
-            <div>
+            <div class="imgf">
                 <h1>FOLLOW US</h1>
 
                 <img src="images/gg_facebook.png" alt="f">
@@ -276,8 +283,8 @@
 
             <div class="ptl">
                 <p>Privacy Police</p>
-                <p>Terms & Conditionals</p>
-                <p>Legal</p>
+                <p class="p1">Terms & Conditionals</p>
+                <p class="p2">Legal</p>
             </div>
 
         </div>
@@ -294,23 +301,21 @@
             <button class="sig">SIGN UP</button>
         </div>
 
-        <form action="#">
+        <form action="https://formspree.io/f/mgawlawr" method="post">
 
             <p>Email</p>
-            <input type="email">
+            <input type="email" name="Email">
 
             <p>Password</p>
-            <input type="password">
+            <input type="password" name="password">
             <br>
             <a href="#">Forgot a password?</a>
             <br>
-            <button>log in</button>
+            <button class="login" type="submit">log in</button>
 
-            <h3>Don't have an account? <a href="#">Sign up</a></h3>
+            <h3>Don't have an account? <a id="sign" href="#">Sign up</a></h3>
         </form>
     </div>
-
-
 
     <div class="Modal2" id="modal2">
         <button class="close2" id="close2">X</button>
@@ -338,13 +343,11 @@
             <p>Confirm a password</p>
             <input type="password">
 
-            <button>SIGN UP</button>
+            <button class="sign">SIGN UP</button>
 
             <h3>Already have an account? <a href="#">Log in</a></h3>
         </form>
     </div>
-
-
 
     <div class="Modal3" id="modal3">
 
@@ -391,7 +394,7 @@
 
 
             <div class="minib">
-                <img class="b1"  src="images/Rectangle 263 (3).png" alt="img1B">
+                <img class="b1" src="images/Rectangle 263 (3).png" alt="img1B">
 
                 <div>
                     <h3>Brit Vitamins</h3>
@@ -418,7 +421,7 @@
 
 
             <div class="minib">
-                <img class="b1"  src="images/Rectangle 263 (6).png" alt="img1B">
+                <img class="b1" src="images/Rectangle 263 (6).png" alt="img1B">
                 <div>
 
                     <h3>Trixie Cat Scratching Post</h3>
@@ -477,6 +480,51 @@
 
         </div>
     </div>
+
+    <div class="Modal4" id="modal4">
+
+        <img class="imgModal4" id="imgModal4" src="images/modal4.png" alt="modal4">
+        <button class="next" id="next">Next ➩</button>
+
+    </div>
+
+    <div class="Modal5" id="Modal5">
+
+        <img class="imgModal5" id="imgModal5" src="images/modal5.png" alt="modal5">
+        <button class="shopnow" id="shopnow">SHOP NOW</button>
+    </div>
+
+    <div class="Burger" id="Burger">
+
+        <div>
+            <button id="close6">X</button>
+            <a href="#top2"> <img class="logohe" src="images/Logo (2).png" alt="Logo"></a>
+
+            <div>
+                <a href="account.html"><button><img src="images/mdi_user.png" alt="prof"></button></a>
+                <button id="btnModal"><img src="images/lets-icons_bag-fill.png" alt="shop"></button>
+            </div>
+
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <hr>
+            <a href="catalog.html">Catalog</a>
+            <hr>
+            <a href="contact.html">contacts</a>
+            <hr>
+            <a href="about.html">About us & delivery</a>
+        </nav>
+
+        <div>
+            <img src="images/gg_facebook.png" alt="f">
+            <img src="images/mdi_instagram.png" alt="i">
+            <img src="images/file-icons_telegram.png" alt="tg">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>

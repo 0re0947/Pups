@@ -19,26 +19,24 @@ h1 {
      font-family: "Titan One", sans-serif;
 }
 
+button {
+     font-family: "Montserrat", sans-serif;
+}
+
 html {
      scroll-behavior: smooth;
 }
 
-
-
-
-
+/* header */
 header {
      width: 100%;
      height: 90px;
-
-
 
      display: flex;
      gap: 400px;
 
      justify-content: center;
      align-items: center;
-
 }
 
 header nav {
@@ -50,9 +48,7 @@ header nav {
 }
 
 header a {
-
      font-weight: 600;
-     font-style: SemiBold;
      font-size: 20px;
      text-transform: uppercase;
 
@@ -61,9 +57,7 @@ header a {
      color: var(--white);
 
      transition: 0.5s;
-
 }
-
 
 header a:hover {
      transform: scale(1.1);
@@ -73,18 +67,27 @@ header a:hover {
 header button {
      background: none;
      border: none;
+
+     transition: 0.5s;
 }
 
+header button:hover {
+     transform: scale(1.1);
+}
 
+header div {
+     display: flex;
+     gap: 10px;
+}
 
-
+/* section1 */
 .sec1 {
      width: 100%;
      height: 550px;
-
-
-
-
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 0px;
 }
 
 .sec1 button {
@@ -97,11 +100,7 @@ header button {
      height: 356px;
 
      background-image: url(images/Subtract\ \(1\).png);
-
      background-size: cover;
-
-     position: relative;
-     left: 308px;
 
      display: flex;
      gap: 200px;
@@ -109,8 +108,8 @@ header button {
 
 .lapa1 {
      position: relative;
-     top: 205px;
-     left: 280px;
+     top: 0px;
+     left: 30px;
 
      background-image: url(images/Frame\ 16.png);
      background-size: cover;
@@ -127,8 +126,8 @@ header button {
 
 .lapa2 {
      position: relative;
-     top: -205px;
-     left: 1300px;
+     top: 0px;
+     left: -30px;
 
      background-image: url(images/Frame\ 17.png);
      background-size: cover;
@@ -143,12 +142,10 @@ header button {
      transform: scale(0.95);
 }
 
-
-
 .kot {
      position: relative;
-     top: -280px;
-     left: -40px;
+     top: -290px;
+     left: -50px;
 }
 
 .serd {
@@ -170,7 +167,6 @@ header button {
      left: -200px;
 
      z-index: 300;
-
 }
 
 .sec1 h1 {
@@ -208,29 +204,21 @@ header button {
      position: relative;
      top: -40px;
      left: 50px;
-
 }
 
-
-
-
+/* section2 */
 .sec2 {
      width: 100%;
      height: 766px;
-
-
 }
 
 .sec2 h1 {
-
      font-weight: 400;
-     font-style: Regular;
      font-size: 64px;
      text-transform: uppercase;
 
      text-align: center;
 }
-
 
 .sec2 h2 {
      width: 300px;
@@ -239,8 +227,6 @@ header button {
      border-radius: 15px;
      background-color: #F2E0D066;
 
-
-
      font-weight: 600;
      font-style: SemiBold;
      font-size: 24px;
@@ -248,9 +234,7 @@ header button {
 
      padding-top: 15px;
      padding-left: 22px;
-
 }
-
 
 .sec2 div :nth-child(1) {
 
@@ -261,11 +245,7 @@ header button {
      left: 380px;
 
      z-index: 4;
-
-
 }
-
-
 
 .sec2 div :nth-child(2) {
 
@@ -280,8 +260,6 @@ header button {
 
 }
 
-
-
 .sec2 div :nth-child(3) {
 
      position: absolute;
@@ -294,8 +272,6 @@ header button {
      width: 385px;
 
 }
-
-
 
 .sec2 div :nth-child(4) {
 
@@ -310,8 +286,6 @@ header button {
 
 }
 
-
-
 .sec2 div :nth-child(5) {
 
      position: absolute;
@@ -324,8 +298,6 @@ header button {
      width: 331px;
 
 }
-
-
 
 .sec2 div :nth-child(6) {
 
@@ -340,23 +312,6 @@ header button {
 
 }
 
-
-
-
-.sec2 div :last-child {
-
-     position: absolute;
-
-
-     top: 800px;
-     left: 560px;
-
-     z-index: 5;
-
-
-}
-
-
 .sec2 div :nth-child(7) {
 
      position: absolute;
@@ -369,8 +324,6 @@ header button {
 
 
 }
-
-
 
 .sec2 div :nth-child(8) {
 
@@ -385,9 +338,6 @@ header button {
 
 }
 
-
-
-
 .sec2 div :nth-child(9) {
 
      position: absolute;
@@ -401,14 +351,24 @@ header button {
 
 }
 
+.sec2 div :last-child {
+
+     position: absolute;
 
 
+     top: 800px;
+     left: 560px;
 
+     z-index: 5;
+
+
+}
+
+/* section3 */
 .sec3 {
      width: 100%;
      height: 715px;
 }
-
 
 .sec3 h1 {
 
@@ -422,15 +382,12 @@ header button {
 
 }
 
-
 .tatodiv2 {
      display: flex;
      justify-content: center;
      align-items: center;
      gap: 52px;
 }
-
-
 
 .tatodiv3 {
      display: flex;
@@ -440,7 +397,6 @@ header button {
 
      margin-top: 30px;
 }
-
 
 .tatodiv2 div {
      width: 565px;
@@ -464,7 +420,6 @@ header button {
      background-color: #F2E0D066;
 }
 
-
 .tatodiv2 h2 {
 
      font-weight: 600;
@@ -475,14 +430,11 @@ header button {
 
 }
 
-
 .kot2 {
      position: relative;
      top: 7px;
      left: 40px;
 }
-
-
 
 .tatodiv3 div {
      width: 273px;
@@ -505,9 +457,7 @@ header button {
      background-color: #F2E0D066;
 }
 
-
-
-
+/* section4 */
 .tatodiv8 {
      display: flex;
      justify-content: center;
@@ -524,15 +474,12 @@ header button {
 
 }
 
-
 .tatodiv8 button {
      border: none;
      background-color: transparent;
 }
 
 .lapa3 {
-
-
      background-image: url(images/Frame\ 17.png);
      background-size: cover;
      width: 50px;
@@ -546,14 +493,12 @@ header button {
      transform: scale(0.95);
 }
 
-
 .tatodiv4 {
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: top;
      gap: 20px;
 }
-
 
 .tatodiv4 h2 {
 
@@ -629,6 +574,18 @@ header button {
      background-color: var(--orange);
 
      border-radius: 15px;
+
+     transition: 1s;
+
+     position: relative;
+
+     cursor: pointer;
+}
+
+
+.div1:hover {
+     height: 417px;
+
 }
 
 
@@ -642,7 +599,7 @@ header button {
 
 
 
-
+/* section5 */
 .sec5 {
      width: 100%;
      height: 780px;
@@ -698,7 +655,7 @@ header button {
      margin-top: 13px;
 }
 
-
+/* section6 */
 .sec6 {
      width: 100%;
      height: 575px;
@@ -791,7 +748,7 @@ header button {
 
 
 
-
+/* footer */
 footer {
      width: 100%;
      height: 245px;
@@ -894,13 +851,46 @@ footer hr {
 
      background-color: white;
 
-     position: absolute;
+     position: fixed;
      top: 100px;
-     left: 0px;
+     left: 500px;
 
      display: none;
 
      z-index: 99999;
+}
+
+.tatodiv4 .buynow {
+     width: 231px;
+     height: 41px;
+     text-transform: uppercase;
+     transition: 1s;
+
+     background-color: #9A75BF;
+
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 20px;
+     color: var(--white);
+     top: -80px;
+
+     opacity: 0;
+     cursor: pointer;
+}
+
+.div1:hover .buynow {
+     opacity: 1;
+
+}
+
+.div1:active .buynow {
+     background-color: var(--black);
+     border: 2px solid #F2E0D0;
+     border-radius: 10px;
+}
+
+.buynow:hover {
+     background-color: #7736B8;
 }
 
 .close1 {
@@ -1009,6 +999,53 @@ footer hr {
 }
 
 
+.login:hover {
+     background-color: #F24405;
+}
+
+.login:active {
+     background-color: var(--black);
+     border: 2px solid #F27329;
+
+
+}
+
+
+.sign:hover {
+     background-color: #F24405;
+}
+
+.sign:active {
+     background-color: var(--black);
+     border: 2px solid #F27329;
+
+     color: #F27329;
+}
+
+
+.send:hover {
+     background-color: #F24405;
+}
+
+.send:active {
+     background-color: var(--black);
+     border: 2px solid #F27329;
+
+     color: #F27329;
+}
+
+.send {
+
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 24px;
+     text-transform: uppercase;
+     transition: 0.3s;
+
+}
+
+
+
 .Modal1 h3 {
 
      font-weight: 500;
@@ -1029,17 +1066,15 @@ footer hr {
 
 
 
-
-
 .Modal2 {
      width: 700px;
      height: 856px;
 
      background-color: white;
 
-     position: absolute;
-     top: 100px;
-     left: 0px;
+     position: fixed;
+     top: 2px;
+     left: 500px;
 
      display: none;
 
@@ -1172,8 +1207,14 @@ footer hr {
 
      z-index: 99999;
 
-     display: none;
+     animation: trans 1.5s;
 
+
+
+}
+
+#modal3 {
+     display: none;
 }
 
 .cast .close3 {
@@ -1186,6 +1227,18 @@ footer hr {
      top: -20px;
      left: 670px;
 }
+
+@keyframes trans {
+     0% {
+          transform: translateX(746px);
+     }
+
+     100% {
+          transform: translateX(0px);
+     }
+}
+
+
 
 
 .Modal3 h1 {
@@ -1200,6 +1253,8 @@ footer hr {
      position: relative;
      top: -130px;
      left: 30px;
+
+     width: 108px;
 
 }
 
@@ -1563,7 +1618,7 @@ footer hr {
 
 .sec16 {
      width: 100%;
-     height: 5500px;
+     height: 1300px;
 
 }
 
@@ -1669,6 +1724,10 @@ footer hr {
      left: 220px;
 
 
+}
+
+.sec16pr .div1 p {
+     width: 60px;
 }
 
 .sec16 .tatodiv12 {
@@ -1969,8 +2028,13 @@ footer hr {
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 20px;
+     gap: 30px;
 
+}
+
+.sec10 img {
+     border-radius: 20px;
+     border: none;
 }
 
 
@@ -2006,6 +2070,12 @@ footer hr {
 }
 
 
+.rabbit {
+     position: relative;
+     top: 63px;
+     left: 37%;
+}
+
 .tatodivA {
      width: 1150px;
      height: 332px;
@@ -2019,7 +2089,9 @@ footer hr {
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 15px;
+     gap: 155px;
+     position: relative;
+     left: 17%;
 }
 
 
@@ -2056,12 +2128,19 @@ footer hr {
      border-color: white;
 }
 
+.sec11 {
+     height: 870px;
+}
 
 .sec7 h2 {
 
      font-weight: 600;
      font-style: SemiBold;
      font-size: 15px;
+     margin-top: 50px;
+
+     position: relative;
+     left: 85px;
 
 }
 
@@ -2084,6 +2163,11 @@ footer hr {
      font-size: 14px;
      color: #290E46;
 
+
+     position: relative;
+     top: 10px;
+     left: 39px;
+
 }
 
 .sec7 h3 {
@@ -2095,6 +2179,9 @@ footer hr {
 
      color: #290E46;
 
+     position: relative;
+     top: 23px;
+     left: 39px;
 }
 
 
@@ -2105,9 +2192,14 @@ footer hr {
 
      color: var(--white);
 
+
+     position: relative;
+     top: 16px;
+     left: -17px;
+
 }
 
-.sec7 .tatodiv11 .treats {
+.sec7 .tatodiv11-p .treats {
      width: 111px;
      height: 23px;
 
@@ -2169,14 +2261,587 @@ footer hr {
      font-style: ExtraBold;
      font-size: 24px;
      color: var(--white);
-    
+
+}
+
+
+.butonu {
+     display: flex;
+     gap: 25px;
+
+     position: relative;
+     top: 25px;
+     left: 280px;
 }
 
 
 .product {
-width: 632px;
-height: 284px;
+     width: 632px;
+     height: 284px;
 
-background-color: #F2E0D04D;
-border-radius: 9px;
+     background-color: #F2E0D04D;
+     border-radius: 9px;
+}
+
+
+
+.sec8 h1 {
+
+     font-weight: 400;
+     font-style: Regular;
+     font-size: 64px;
+     text-transform: uppercase;
+
+}
+
+.tatodiv22 button {
+     border: none;
+     background: none;
+}
+
+
+.tatodiv11-p {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 150px;
+     margin-top: 50px;
+}
+
+.kts {
+     width: 470px;
+}
+
+.tochki {
+     position: relative;
+     left: 209px;
+     margin-bottom: 8px;
+     margin-top: 8px;
+}
+
+.product img {
+     position: absolute;
+     top: 570px;
+     left: 1430px;
+}
+
+.tatodiv22 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 550px;
+
+     margin-top: 100px;
+
+}
+
+.sec8 {
+     height: 600px;
+}
+
+
+
+.sec12 h1 {
+     font-weight: 400;
+     font-size: 64px;
+     text-transform: uppercase;
+
+     position: relative;
+     top: 50px;
+     left: 90px;
+}
+
+.bAK {
+     position: relative;
+     top: -120px;
+     left: 370px;
+
+     display: flex;
+     gap: 20px;
+}
+
+.bAK button {
+     font-weight: 600;
+     font-size: 20px;
+
+     background-color: #F2E0D0;
+     border: none;
+     color: white;
+
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+.sec12 button {
+     border: none;
+     background: none;
+}
+
+.tatodivAK {
+     background-color: #F2E0D066;
+     border-radius: 30px;
+     width: 1138px;
+     height: 491px;
+
+     position: relative;
+     left: 290px;
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     gap: 111px;
+}
+
+.sec12 img {
+     position: relative;
+     top: 50px;
+     left: 815px;
+
+     z-index: 9999;
+}
+
+/* --- Профіль: три колонки --- */
+
+.profile {
+     display: flex;
+     gap: 80px;
+
+     width: auto;
+
+     position: relative;
+     top: 60px;
+     left: -500px;
+}
+
+.profile>div {
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+     min-width: 220px;
+}
+
+.profile h4 {
+     font-weight: 700;
+     font-size: 20px;
+     color: var(--black);
+     margin: 0 0 8px 0;
+     white-space: nowrap;
+}
+
+.profile p {
+     font-weight: 500;
+     font-size: 16px;
+     color: var(--black);
+     margin: 0;
+     white-space: nowrap;
+}
+
+/* адреса — окрема логіка переносу */
+.profile div:last-child {
+     min-width: 260px;
+}
+
+.profile div:last-child p {
+     white-space: normal;
+     max-width: 260px;
+     line-height: 1.4;
+     margin-bottom: 16px;
+}
+
+.profile div:last-child p img {
+     vertical-align: middle;
+     margin-right: 6px;
+}
+
+
+.pimg {
+     line-height: 25px;
+}
+
+
+.pimg img {
+     position: relative;
+     top: 10px;
+     left: -5px;
+}
+
+.content button img {
+     position: relative;
+     top: 55px;
+     left: 240px;
+}
+
+
+
+.orders p {
+
+     font-weight: 400;
+     font-style: Regular;
+     font-size: 13px;
+
+     color: var(--black);
+}
+
+.orders span {
+
+     font-weight: 500;
+     font-style: Medium;
+     font-size: 13px;
+
+     color: #290E46;
+}
+
+
+.d05 {
+     width: 875px;
+     height: 114px;
+
+     background-color: var(--white);
+     border-radius: 15px;
+
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     gap: 200px;
+
+     margin-top: 16px;
+}
+
+
+.gsp1 {
+     display: flex;
+     gap: 30px;
+}
+
+
+.liked h2 {
+
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 16px;
+
+     margin-top: -15px;
+     padding-left: 20px;
+}
+
+.liked h3 {
+     width: 230px;
+
+     font-weight: 400;
+     font-style: Regular;
+     font-size: 14px;
+
+     margin-top: -10px;
+     padding-left: 20px;
+
+}
+
+.liked button {
+     width: 66px;
+     height: 20px;
+     border-radius: 9px;
+
+     margin-left: 20px;
+
+     font-weight: 400;
+     font-style: Regular;
+     font-size: 9px;
+
+     background-color: #FFFFFF4D;
+     border: 1px solid white;
+}
+
+.liked p {
+
+     font-weight: 600;
+     font-style: SemiBold;
+     font-size: 20px;
+     text-transform: uppercase;
+
+     position: relative;
+     top: -42px;
+     left: 220px;
+
+}
+
+
+.tatodivlike {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 21px;
+
+     margin-top: 33px;
+}
+
+
+
+.imgModal4 {
+     width: 795px;
+     height: 526px;
+
+     position: relative;
+     top: -1000px;
+     left: 450px;
+
+
+}
+
+
+.next {
+     width: 207px;
+     height: 72px;
+
+     background-color: var(--orange);
+     border: none;
+
+     position: relative;
+     top: -1030px;
+     left: 230px;
+
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 24px;
+     color: var(--white);
+
+
+}
+
+
+.imgModal5 {
+     width: 764px;
+     height: 806px;
+
+     position: relative;
+     top: -1200px;
+     left: 450px;
+
+
+
+}
+
+.shopnow {
+     width: 327px;
+     height: 97px;
+     background-color: var(--orange);
+     border: none;
+
+     font-weight: 700;
+     font-style: Bold;
+     font-size: 24px;
+     color: var(--white);
+
+     position: relative;
+     top: -1275px;
+     left: -247px;
+}
+
+
+.Modal4 {
+     display: none;
+}
+
+.Modal5 {
+     display: none;
+}
+
+
+
+
+@media(width:402px) {
+     .logohe {
+          width: 45px;
+          height: 42px;
+     }
+
+     header nav {
+          display: none;
+     }
+
+     header div button {
+          width: 30px;
+          height: 30px;
+     }
+
+     .search {
+          display: none;
+     }
+
+
+     .sec1 h1 {
+          font-size: 50px;
+     }
+
+     .tatodiv1 button {
+          width: 192px;
+          height: 36px;
+
+          font-size: 18px;
+     }
+
+     .tatodiv1 h2 {
+          font-size: 36px;
+     }
+
+     .serd {
+          width: 118px;
+          height: 141px;
+     }
+
+     .kot {
+          width: 230px;
+          height: 259px;
+     }
+
+     .lapa1 {
+          display: none;
+     }
+
+     .lapa2 {
+          display: none;
+     }
+
+
+     .sec2 h1 {
+          font-size: 36px;
+     }
+
+     .sec2 h2 {
+          font-size: 16px;
+     }
+
+     .sec2 img {
+          width: 54px;
+          height: 99px;
+     }
+
+
+     .sec3 h1 {
+          font-size: 36px;
+     }
+
+     .tatodiv2 div {
+          width: 362px;
+          height: 98px;
+     }
+
+     .tatodiv2 img {
+          width: 362px;
+          height: 98px;
+
+          font-size: 32px;
+     }
+
+     .tatodiv3 div {
+          width: 174px;
+          height: 98px;
+     }
+
+     .tatodiv3 img {
+          width: 172px;
+          height: 98px;
+
+          font-size: 20px;
+     }
+
+
+     .tatodiv8 h1 {
+          font-size: 36px;
+     }
+
+     .btnl {
+          display: none;
+     }
+
+
+     .sec5 h1 {
+          font-size: 36px;
+     }
+
+     .sec5 p {
+          width: 293px;
+          height: 42px;
+          font-size: 16px;
+     }
+
+     .sec5 button {
+          width: 40px;
+          height: 40px;
+     }
+
+     .sec5 hr {
+          width: 362px;
+     }
+
+
+     .tatodiv5 img {
+          width: 246px;
+          height: 252px;
+     }
+
+     .tatodiv5 h1 {
+          font-size: 24px;
+     }
+
+     .tatodiv5 p {
+          width: 279px;
+          height: 40px;
+          font-size: 16px;
+     }
+
+     .input2 input {
+          width: 208px;
+          height: 43px;
+          font-size: 13px;
+     }
+
+     .input2 button {
+          width: 107px;
+          height: 41px;
+          font-size: 16px;
+     }
+
+     .tatodiv5 {
+          width: 362px;
+          height: 196px;
+          border-radius: 25px;
+     }
+
+
+     .tatodiv6 img {
+          width: 51px;
+          height: 41px;
+     }
+
+     .tatodiv6 nav a {
+          font-size: 20px;
+     }
+
+     .tatodiv6 div h1 {
+          display: none;
+     }
+
+     .tatodiv6 p {
+          width: 216px;
+          height: 54px;
+          font-size: 20px;
+     }
+
+     .imgf img {
+          width: 45px;
+          height: 45px;
+     }
+
+     .p1 {
+          display: none;
+     }
+
+     .p2 {
+          display: none;
+     }
+
+     .tatodiv7 p {
+          font-size: 16px;
+     }
 }
