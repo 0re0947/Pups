@@ -59,3 +59,16 @@ next.addEventListener("click", () => {
 shopnow.addEventListener("click", () => { 
     modal5.style.display = "none"; 
 });
+
+
+const burger = document.getElementById("Burger");
+const burgerbtn = document.getElementById("burgerbtn");
+const close6 = document.getElementById("close6");
+
+burgerbtn.addEventListener("click", () => {
+    burger.style.display = "block";
+});
+
+close6.addEventListener("click", () => {
+    burger.style.display = "none";
+});
